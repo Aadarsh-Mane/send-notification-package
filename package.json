@@ -1,7 +1,7 @@
 {
   "name": "sendnotification",
   "version": "1.0.0",
-  "description": "",
+  "description": "h",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Aadarsh-Mane/send-notification-package.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "aadarshmane01",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
