@@ -117,18 +117,4 @@ router.post("/send-notification-all", async (req, res) => {
     res.status(500).json({ error: "Failed to send notifications" });
   }
 });
-
-// app.get("/", (req, res) => {
-//     console.log("hello")
-// res.json({messafe:"hello"})
-// console.log("hello")
-// });
-app.get("/", (req, res) => {
-  console.log("Received GET request at /");
-
-  res.json({ message: "Server is running" });
-});
-// checking port on local server
-app.listen(PORT, () => {
-  console.log(`listening on ${PORT}`);
-});
+export default router;

@@ -8,6 +8,10 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadarsh-Mane/send-notification-package.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
