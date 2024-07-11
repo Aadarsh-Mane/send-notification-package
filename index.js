@@ -18,7 +18,7 @@ admin.initializeApp({
     privateKey: process.env.private_key,
   }),
   // Replace with your Firebase project config
-  databaseURL: "https://myschool-44d2f.firebaseio.com/",
+  databaseURL: process.env.databaseurl,
 });
 export const getAccessToken = async () => {
   const jwtClient = new google.auth.JWT(
